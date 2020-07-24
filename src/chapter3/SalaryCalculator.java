@@ -12,6 +12,7 @@ public class SalaryCalculator {
         // Initialize know values
         double salary = 1000;
         double bonus = 250;
+        int targetSells = 10; // This is a magic number (hard code)
 
 
         // Get values for the unknown
@@ -23,7 +24,7 @@ public class SalaryCalculator {
 
         //quick detour for the bonus
         // if apenas verifica se vale, senao ele passa direto
-        if(sales > 10)
+        if(sales > targetSells)
         {
             salary = (salary + bonus);
         }
