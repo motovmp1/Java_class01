@@ -1,4 +1,6 @@
 package chapter2;
+// quando tiver package precisa compilar dentro da pasta certa
+
 
 import java.util.Scanner;
 
